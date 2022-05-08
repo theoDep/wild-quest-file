@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 1rem;
+}
+
+label + input {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
